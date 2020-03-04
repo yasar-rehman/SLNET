@@ -36,7 +36,8 @@ def cnn_hybrid_color_single(img_rows, img_cols, img_dims):
                                 )
     feat_r = model_conv1(inputs_r)
     feat_l = model_conv1(inputs_l)
-
+    
+    # you can modify this line to modify the type of disparity
     x1 = Lambda(lambda x: K.abs(x[0]-x[1]))([feat_r,feat_l]) # compute the Sum of Square (SSD) disparity between the two feature maps
     x1 = Activation('sigmoid')(x1)
 
