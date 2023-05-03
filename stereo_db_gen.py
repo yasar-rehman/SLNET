@@ -7,7 +7,7 @@ from imutils.face_utils.helpers import FACIAL_LANDMARKS_IDXS
 import matplotlib.pyplot as plt
 
 
-path = '/home/yaurehman2/Documents/stereo_face_liveness/shape_predictor_68_face_landmarks.dat'
+path = '/stereo_face_liveness/shape_predictor_68_face_landmarks.dat'
 
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(path)
@@ -565,6 +565,6 @@ def check_face(frame_r, frame_l, img_rows, img_cols):
 # dataset_dir_path = os.path.expanduser('~/Documents/Newwork/Stereo_Face_database')
 # #
 # get_dataset(dataset_dir_path, st_tr_file_name)
-# path = ['/home/yaurehman/PycharmProjects/Face_anti_spoofing_cnn_evaluation/StereoFace_database/subject_1/Subject_1_real_rightcam_highdef.flv',
-#         '/home/yaurehman/PycharmProjects/Face_anti_spoofing_cnn_evaluation/StereoFace_database/subject_1/Subject_1_real_leftcam_highdef.flv']
+# path = ['/Face_anti_spoofing_cnn_evaluation/StereoFace_database/subject_1/Subject_1_real_rightcam_highdef.flv',
+#         '/Face_anti_spoofing_cnn_evaluation/StereoFace_database/subject_1/Subject_1_real_leftcam_highdef.flv']
 # database_matrix = video_data(path, 100, 15)
