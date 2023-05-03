@@ -21,7 +21,7 @@ from ess_func import read_pairs, sample_people, prewhiten, store_loss, hog_to_te
 import os
 
 detector = dlib.get_frontal_face_detector()
-face_cascade = cv2.CascadeClassifier('/home/yaurehman2/virtualenv-py2/opencv/opencv-3.3.0/data/haarcascades_cuda/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('/opencv/opencv-3.3.0/data/haarcascades_cuda/haarcascade_frontalface_default.xml')
 
 def format(value):
     return "%.3f" % value
@@ -169,11 +169,11 @@ def parser_arguments(argv):
 
     parser.add_argument('--tst_img_lab_r', type=str,
                         help='direcotry where test iamges are stored ',
-                        default='/home/yaurehman2/Documents/Newwork/stereo_face_new_multi-class/test_right_mt_context.txt')
+                        default='/stereo_face_new_multi-class/test_right_mt_context.txt')
 
     parser.add_argument('--tst_img_lab_l', type=str,
                         help='direcotry where test iamges are stored ',
-                        default='/home/yaurehman2/Documents/Newwork/stereo_face_new_multi-class/test_left_mt_context.txt')
+                        default='/stereo_face_new_multi-class/test_left_mt_context.txt')
 
 
     # """**************************************************************************************************************"""
