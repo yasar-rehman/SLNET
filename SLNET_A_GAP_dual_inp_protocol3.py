@@ -440,7 +440,7 @@ def main(args):
         print("Total time taken %f :" % end_time)
 
         model_final.save_weights(
-            '/home/yaurehman2/Documents/stereo_face_liveness/stereo_ckpt/Conventional/' + 'dual_grayscale_input_revised_protocol_3_'+ str(args.max_epochs) + '.h5')
+            '/Documents/stereo_face_liveness/stereo_ckpt/Conventional/' + 'dual_grayscale_input_revised_protocol_3_'+ str(args.max_epochs) + '.h5')
 
 
 
