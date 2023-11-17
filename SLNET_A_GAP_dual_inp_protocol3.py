@@ -449,20 +449,20 @@ def parser_arguments(argv):
 
     parser.add_argument('--tr_img_lab_r', type=str,
                         help='directory from where to get the training paths and ground truth',
-                        default='/home/yaurehman2/Documents/Newwork/stereo_face_new_multi-class/train_right_mt_context.txt')
+                        default='/Documents/Newwork/stereo_face_new_multi-class/train_right_mt_context.txt')
 
     parser.add_argument('--tr_img_lab_l', type=str,
                         help='directory from where to get the training paths and ground truth',
-                        default='/home/yaurehman2/Documents/Newwork/stereo_face_new_multi-class/train_left_mt_context.txt')
+                        default='/Documents/Newwork/stereo_face_new_multi-class/train_left_mt_context.txt')
 
 
     parser.add_argument('--tst_img_lab_r', type=str,
                         help='direcotry where test iamges are stored ',
-                        default='/home/yaurehman2/Documents/Newwork/stereo_face_new_multi-class/test_right_mt_context.txt')
+                        default=/Documents/Newwork/stereo_face_new_multi-class/test_right_mt_context.txt')
 
     parser.add_argument('--tst_img_lab_l', type=str,
                         help='direcotry where test iamges are stored ',
-                        default='/home/yaurehman2/Documents/Newwork/stereo_face_new_multi-class/test_left_mt_context.txt')
+                        default='/Documents/Newwork/stereo_face_new_multi-class/test_left_mt_context.txt')
 
 
 
