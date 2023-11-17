@@ -29,7 +29,7 @@ for i in range(0,51):
     # # ********************************************************************************************************************
     #
     file_path = st_tr_file_name
-    hdf5_path = '/home/yaurehman2/Documents/stereo_face_liveness/'
+    hdf5_path = '/Documents/stereo_face_liveness/'
     file_read = open(file_path, "r")
     left_cam = 'leftcam'
 
