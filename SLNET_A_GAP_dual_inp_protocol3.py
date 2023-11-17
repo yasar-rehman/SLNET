@@ -458,7 +458,7 @@ def parser_arguments(argv):
 
     parser.add_argument('--tst_img_lab_r', type=str,
                         help='direcotry where test iamges are stored ',
-                        default=/Documents/Newwork/stereo_face_new_multi-class/test_right_mt_context.txt')
+                        default='/Documents/Newwork/stereo_face_new_multi-class/test_right_mt_context.txt')
 
     parser.add_argument('--tst_img_lab_l', type=str,
                         help='direcotry where test iamges are stored ',
